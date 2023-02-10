@@ -7,36 +7,50 @@
     <title>Borda2 Perez</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
 
 <link rel="stylesheet" href="./style/main.css">
 </head>
 <body>
     
    <header class="header">
-    <div class="header__nav">
-    <img src="./Images/logo1.svg" alt="Company Logo nombre de la empresa y sus respectivos colores">
-    <nav>
+    
+    <img
+    src="./Images/logo1.svg" 
+    alt="Company Logo nombre de la empresa y sus respectivos colores"
+    width="145"
+    height="100"
+    />
+    <nav class="header__nav">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Community</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Event</a></li>
         </ul>
     
     </nav>
+
+
+<div class="header__actions">
+        <form class="header__search" action="">
+            <img 
+            src="./Images/icon1.svg" 
+            alt="Una lupa que grafica el sector de la busqueda dentro del sitio web"
+            width="16"
+            height="16"/>
+    <input type="search" aria-label="search" placeholder="Buscar aqui..."/>
+</form>
+
+             <a href="/login" class="btn">Log in</a>
+            
 </div>
 
-    <div>
-    <input type="search" />
-    <a href="/login">Log in</a>
-</div>
    </header>
    <main>
     <section class="hero"></section>
     <div class="clients"></div>
-    <section class="whats-netboks">
-        </section>
-    
+    <section class="whats-netboks"></section>
     <section class="community"></section>
     <section class="members"></section>
     <section class="app"></section>
@@ -44,6 +58,7 @@
    </main> 
    <footer></footer>
 </div>
-</body>
+       
+                </body>
 
 </html>
