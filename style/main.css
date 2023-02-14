@@ -92,6 +92,10 @@ a {
     margin: 0 auto;
 }
 
+.prime {
+    background: linear-gradient(311.75deg, #D4E7FE -15.4%, #ffffff 78.85%);
+}
+
 .header {
     border-bottom: solid 1px var(--color-primary-10);
     padding: 1.5rem 0;
@@ -134,5 +138,10 @@ a {
     all: unset;
     width: 7.5rem;
 
+   }
+   .hero {
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
    }
 
